@@ -25,7 +25,6 @@ class CarSimulator:
         car = self.car_builder.build_car()
         print("Simulation complete")
 
-# Тестування
 if __name__ == "__main__":
     simulator = CarSimulator()
     simulator.simulate()
